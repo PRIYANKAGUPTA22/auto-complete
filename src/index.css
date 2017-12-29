@@ -1,0 +1,45 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width:100%;
+  font-family: sans-serif;
+}
+.test{
+  font-size:28;
+  color: red;
+}
+.rootMain,#root{
+  position: relative;
+  height: 100%;
+  width:100%;
+}
+.results{
+  background: lightgray;
+  z-index: 10;
+  position: relative;
+}
+.results li:focus{
+  background: black;
+}
+ul{
+  margin: 0;
+}
+.container{
+  height: 400px;
+  width: 200px;
+  background-color: lightgray;
+}
+.displayNone{
+  display: none;
+}
+li{
+  height: 30px;
+  list-style: none;
+}
+.focused{
+  background: lightblue;
+}
+ul{
+  padding: 0;
+}
